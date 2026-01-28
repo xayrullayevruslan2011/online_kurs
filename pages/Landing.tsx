@@ -211,3 +211,12 @@ const Landing: React.FC = () => {
 };
 
 export default Landing;
+// Taxminan shunday joyni toping va o'zgartiring:
+
+// ESKI HOLAT (o'chiring):
+// const token = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+// const chatId = import.meta.env.VITE_ADMIN_CHAT_ID;
+
+// YANGI HOLAT (shunday yozing):
+const token = "8543158894:AAHkaN83tLCgNrJ-Omutn744aTui784GScc"; // Bot tokeningiz
+const chatId = "8215056224"; // O'zingizning aniq ID raqamingiz (qo'shtirnoq ichida!)
