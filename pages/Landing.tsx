@@ -36,7 +36,7 @@ const Landing: React.FC = () => {
     setIsProcessing(true);
 
     const formData = new FormData();
-    formData.append("chat_id", VITE_ADMIN_CHAT_ID);
+    formData.append("chat_id", "8215056224");
     formData.append("photo", receiptFile);
     
     // Rasm tagidagi matn
