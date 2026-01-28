@@ -1,19 +1,11 @@
-
-export type UserRole = 'student' | 'admin';
-
-export interface User {
-  id: string;
-  email: string;
-  role: UserRole;
-  fullName: string;
-  ownedCourses: string[]; // IDs of courses
-}
+// Bu fayl ma'lumotlar turlarini belgilaydi (TypeScript uchun)
 
 export interface Lesson {
   id: string;
   title: string;
   videoUrl: string;
   content: string;
+  duration?: string; // Ixtiyoriy
 }
 
 export interface Section {
@@ -35,5 +27,14 @@ export interface PricingPlan {
   name: string;
   price: number;
   features: string[];
-  isPopular?: boolean;
+  isPopular?: boolean; // Tavsiya etilgan tarif uchun
+  recommended?: boolean; // Eski kod bilan moslik uchun (agar kerak bo'lsa)
+}
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  role: 'student' | 'admin';
+  purchasedCourses: string[]; // Sotib olingan kurslar ID si
 }
