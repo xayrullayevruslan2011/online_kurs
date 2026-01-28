@@ -148,8 +148,8 @@ const Landing: React.FC = () => {
             {/* Karta ma'lumotlari */}
             <div className="bg-white border-2 border-gray-100 p-4 rounded-2xl text-center">
               <p className="text-gray-500 text-sm mb-1">To'lov uchun karta raqam:</p>
-              <p className="text-xl font-mono font-bold text-gray-900 select-all">8600 0000 0000 0000</p>
-              <p className="text-gray-400 text-xs mt-1">(Ism Familiya)</p>
+              <p className="text-xl font-mono font-bold text-gray-900 select-all">4073 4200 6735 5457</p>
+              <p className="text-gray-400 text-xs mt-1">(Gulzebo Xolboyeva)</p>
             </div>
 
             {/* Fayl yuklash */}
